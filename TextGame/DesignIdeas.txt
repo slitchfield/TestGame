@@ -1,0 +1,15 @@
+Tasks to be accomplished:
+  - Room linking
+    - Class holds room information
+      - Room information
+        - Description
+        - Pointers to adjacent Rooms
+        - Items
+        - 
+  - Player Movement
+    - Class for player
+    - Has inventory, Name string, Current Room.
+
+  - Inventory System
+    - Item Class
+      - Has Name, interactions?
