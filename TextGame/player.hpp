@@ -18,7 +18,7 @@ class Player{
     
   private:
     std::string Name;
-    std::vector<Item> Inv;
+    std::vector<Item>* Inv;
     
 };
 

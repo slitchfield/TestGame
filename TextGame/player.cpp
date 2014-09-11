@@ -1,7 +1,7 @@
 #include "player.hpp"
 
 Player::Player(){
-  
+  this->Inv = new std::vector<Item>; 
 }
 
 void Player::setName(std::string str){
