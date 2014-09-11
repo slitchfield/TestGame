@@ -8,6 +8,7 @@
 #include <string>
 #include <vector>
 #include "item.hpp"
+#include "room.hpp"
 
 class Player{
 
@@ -15,10 +16,13 @@ class Player{
     Player();
     void setName(std::string);
     std::string getName();
+    Room* getRoom();
+    void setRoom(Room*);
     
   private:
     std::string Name;
     std::vector<Item>* Inv;
+    Room* currentRoom;
     
 };
 

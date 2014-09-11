@@ -1,6 +1,6 @@
 CC=g++
 CFLAGS=-I.
-OBJ = main.o player.o
+OBJ = main.o player.o item.o room.o
 
 EXENAME = textgame
 

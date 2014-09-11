@@ -12,3 +12,10 @@ std::string Player::getName(){
   return this->Name;
 }
 
+Room* Player::getRoom(){
+  return this->currentRoom;
+}
+
+void Player::setRoom(Room* room){
+  this->currentRoom = room;
+}
