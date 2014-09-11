@@ -14,6 +14,7 @@ class Player{
   public:
     Player();
     void setName(std::string);
+    std::string getName();
     
   private:
     std::string Name;
